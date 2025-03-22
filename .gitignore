@@ -404,4 +404,5 @@ FodyWeavers.xsd
 .AppleDouble
 .LSOverride
 
-appsettings.Development.json
+# Thumbnails
+API/Curotec.API/appsettings.Development.json
