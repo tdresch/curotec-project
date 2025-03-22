@@ -7,6 +7,7 @@ This is a test project based on Curotec challenge.
 Curotec API is implemented in .NET 8 using controllers.
 Its using EF Core migrations with the concept of Code First to publish and create the tables and any change required.
 The database is hosted in Azure. To run the system locally, an exception must be created at the SQL Server Firewall, adding the client IP.
+The places where there is a string AZURE_SQL_CONNECTIONSTRING must be replaced by the ADO.NET SQL Authentication connectionstring.
 
 # UI
 
