@@ -16,8 +16,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer(
-            @"Server=tcp:tdresch.database.windows.net,1433;Initial Catalog=curotec;Persist Security Info=False;User ID=tdresch;Password=upgGxr0ANcu0WsV;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        optionsBuilder.UseSqlServer("PUT_AZURE_SQL_CONNECTIONSTRING");
     }
 
 

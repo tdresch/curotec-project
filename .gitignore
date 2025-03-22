@@ -403,3 +403,5 @@ FodyWeavers.xsd
 .DS_Store
 .AppleDouble
 .LSOverride
+
+appsettings.Development.json
